@@ -14,6 +14,8 @@ public class Assignment5Requirements extends AJUnitProjectRequirements {
 		addDueDate("12/4/2019 02:00:00", 1.0);
 		BasicProjectIntrospection.setUseMainClass(true);
 		addJUnitTestSuite(Assignment5Suite.class);		
+        addManualFeature("Hypotheses:", 30, false);
+
 
 	}
 }
