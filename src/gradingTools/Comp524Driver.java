@@ -12,14 +12,14 @@ import util.trace.uigen.UnknownPropertyNotification;
 public class Comp524Driver {
 	public static void main (String[] args) {
 //		ObjectEditor.setDenseMagnification(1.0);
-		ExecutionSpecificationSelector.getExecutionSpecification().setGraderModule("Comp524f20");
+//		ExecutionSpecificationSelector.getExecutionSpecification().setGraderModule("Comp524F20");
 //		ExecutionSpecificationSelector.getExecutionSpecification().setGraderProblemDownloadPath("foo");
 //		ExecutionSpecificationSelector.getExecutionSpecification().setUseProjectConfiguration(true); // duplicating what is in the ASuite
-		Tracer.showInfo(true);
+//		Tracer.showInfo(true);
 //		TraceableWarning.doNotWarn(UnknownPropertyNotification.class);
 
 //		Tracer.setMessagePrefixKind(MessagePrefixKind.FULL_CLASS_NAME);
-		GraderBasicsTraceUtility.setBufferTracedMessages(false);
+//		GraderBasicsTraceUtility.setBufferTracedMessages(false);
 		Driver.main(args);
 		
 		for(String s : args) {
