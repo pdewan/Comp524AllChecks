@@ -24,7 +24,7 @@ public class Assignment3Requirements extends AJUnitProjectRequirements {
 		addDueDate("10/28/2020 02:00:00", 1.0);
 		addDueDate("11/04/2020 02:00:00", 0.9);
 		addDueDate("11/11/2020 02:00:00", 0.75);
-		F20Assignment0_3Suite.smlIsBatFile(false);
+//		F20Assignment0_3Suite.smlIsBatFile(false);
 		BasicProjectIntrospection.setUseMainClass(true);
 		addJUnitTestSuite(F20Assignment3Suite.class);	
         addFeature("Screenshots enclosed", 5, new DocumentEnclosedTestCase());

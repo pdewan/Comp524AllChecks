@@ -24,7 +24,7 @@ public class Assignment2Requirements extends AJUnitProjectRequirements {
 		addDueDate("10/9/2020 02:00:00", 1.05);
 		addDueDate("10/14/2020 02:00:00", 1.0);
 		addDueDate("10/21/2020 02:00:00", 0.9);
-		addDueDate("10/18/2020 02:00:00", 0.75);
+		addDueDate("10/28/2020 02:00:00", 0.75);
 		BasicExecutionSpecificationSelector.getBasicExecutionSpecification().setLanguage(BasicLanguageDependencyManager.PROLOG_LANGUAGE);
 		BasicProjectIntrospection.setUseMainClass(true);
 		addJUnitTestSuite(F20Assignment2Suite.class);	

@@ -23,7 +23,9 @@ public class Assignment03Requirements extends AJUnitProjectRequirements {
 		addDueDate("09/02/2020 01:00:00", 0.9);
 		addDueDate("09/09/2020 01:00:00", 0.75);
 		BasicExecutionSpecificationSelector.getBasicExecutionSpecification().setLanguage(BasicLanguageDependencyManager.PROLOG_LANGUAGE);
-		F20Assignment0_3Suite.smlIsBatFile(false);
+//		F20Assignment0_3Suite.smlIsBatFile(false);
+		F20Assignment0_3Suite.smlIsBatFile(BasicExecutionSpecificationSelector.getBasicExecutionSpecification().getSMLIsBat());
+
 		BasicProjectIntrospection.setUseMainClass(true);
 		addJUnitTestSuite(F20Assignment0_3Suite.class);	
         addFeature("Screenshots enclosed", 3, new DocumentEnclosedTestCase());
