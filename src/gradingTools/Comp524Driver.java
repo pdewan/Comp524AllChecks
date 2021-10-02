@@ -24,6 +24,7 @@ public class Comp524Driver {
 		
 		for(String s : args) {
 			if (s.matches("-.*?[hH][eE][aA][dD][lL][eE][sS]{2}.*")) { // any variety of -.*headless.* with any capitalization
+				System.out.println("Exiting driver");
 				System.exit(0);
 			}
 		}
