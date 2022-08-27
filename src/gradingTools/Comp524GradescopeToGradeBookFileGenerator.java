@@ -12,8 +12,8 @@ public class Comp524GradescopeToGradeBookFileGenerator {
 //	};
 //	public static final String GRADES_FOLDER = "G:\\My Drive\\533\\grades\\";
 //	public static final String GRADES_FOLDER = Comp524GradeBookToGradesScopeFileGenerator.GRADES_DIR;
-	public static final String GRADES_FOLDER =  "G:\\My Drive\\524\\f20\\grades\\";
-
+//	public static final String GRADES_FOLDER =  "G:\\My Drive\\524\\f21\\grades\\";
+	public static final String GRADES_FOLDER =  "G:\\My Drive\\533\\s22\\grades\\";
 //	public static final String GRADES_FOLDER = Comp524GradeBookToGradesScopeFileGenerator.GRADES_DIR;
 
 //
@@ -24,18 +24,22 @@ public class Comp524GradescopeToGradeBookFileGenerator {
 	public static final String GRADESCOPE_FILE_NAME = "G_Assignnent_0_1_scores.csv";
 	public static final String SAKAI_FILE_NAME = "G_Assignnent_0_1_scores_sakai.csv";
 	public static final String GRADE_COLUMN_NAME = "G_Assignment_0_1_Sakai";
+//	public static final String GRADE_TEMPLATE_FILE_NAME  = "gradebook_export_template.csv";
 	public static final String GRADE_TEMPLATE_FILE_NAME  = "gradebook_export_template.csv";
+
 	public static final String[] assignmentNames = {
-			"G_Assignnent_0_1",
-			"G_Assignnent_0_2",
-			"G_Assignnent_0_3",
-			"G_Assignnent_0_4",
-			"G_Assignment_1",
-			"G_Assignment_2",
-			"G_Assignment_3",
-			"G_Assignment_4",
-			"G_Assignment_5",
-			"G_Assignment_6",
+//			"G_Assignment_0",
+//			"G_Assignnent_0_1",
+//			"G_Assignment_1",
+//			"G_Assignment_2",
+//			"G_Assignment_3",
+//			"G_Assignment_4",
+//			"G_Assignment_5",
+//			"G_Assignment_6",
+			"G_Assignment_7",
+//			"Midterm",
+//			"Final"
+
 	};
 
 	
