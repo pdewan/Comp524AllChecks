@@ -13,7 +13,8 @@ public class Comp524GradescopeToGradeBookFileGenerator {
 //	public static final String GRADES_FOLDER = "G:\\My Drive\\533\\grades\\";
 //	public static final String GRADES_FOLDER = Comp524GradeBookToGradesScopeFileGenerator.GRADES_DIR;
 //	public static final String GRADES_FOLDER =  "G:\\My Drive\\524\\f21\\grades\\";
-	public static final String GRADES_FOLDER =  "G:\\My Drive\\533\\s22\\grades\\";
+//	public static final String GRADES_FOLDER =  "G:\\My Drive\\533\\s22\\grades\\";
+	public static final String GRADES_FOLDER =  "G:\\My Drive\\524\\f22\\grades\\";
 //	public static final String GRADES_FOLDER = Comp524GradeBookToGradesScopeFileGenerator.GRADES_DIR;
 
 //
@@ -30,14 +31,14 @@ public class Comp524GradescopeToGradeBookFileGenerator {
 	public static final String[] assignmentNames = {
 //			"G_Assignment_0",
 //			"G_Assignnent_0_1",
-//			"G_Assignment_1",
-//			"G_Assignment_2",
-//			"G_Assignment_3",
-//			"G_Assignment_4",
-//			"G_Assignment_5",
-//			"G_Assignment_6",
-			"G_Assignment_7",
-//			"Midterm",
+			"G_Assignment_1",
+			"G_Assignment_2",
+			"G_Assignment_3",
+			"G_Assignment_4",
+			"G_Assignment_5",
+			"G_Assignment_6",
+//			"G_Assignment_7",
+			"Midterm",
 //			"Final"
 
 	};

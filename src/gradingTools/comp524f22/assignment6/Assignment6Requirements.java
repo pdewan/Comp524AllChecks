@@ -4,8 +4,8 @@ import grader.basics.project.BasicProjectIntrospection;
 import grader.junit.AJUnitProjectRequirements;
 import gradingTools.sharedTestCase.DocumentEnclosedTestCase;
 
-public class Assignment5Requirements extends AJUnitProjectRequirements {
-	public Assignment5Requirements() {
+public class Assignment6Requirements extends AJUnitProjectRequirements {
+	public Assignment6Requirements() {
 //		Comp533TraceUtility.setTurnOn(true);
 //		Comp533TraceUtility.setTracing();
 //		GraderTraceUtility.setTurnOn(true);
