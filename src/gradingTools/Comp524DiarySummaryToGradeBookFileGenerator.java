@@ -15,6 +15,8 @@ public class Comp524DiarySummaryToGradeBookFileGenerator {
 //	};
 	static String[] onyensToEmail = new String[] {
 //		"whglaser:whglaser@ad.unc.edu"
+		"harrywh:harrywang11@126.com",
+		"zackaxal:zackb@unc.edu"
 	};
 //	static final String DIARY_FILE_NAME = 
 //			"D:\\UNCGoogleDrive\\401-f15\\grades\\f18\\401diaries_Direct.csv";
@@ -23,7 +25,8 @@ public class Comp524DiarySummaryToGradeBookFileGenerator {
 	static final String DIARY_FILE_NAME = 
 //			"524diaries_11-29-2020_summary.csv";
 //			"524diaries_12-6-2021_summary.csv";
-			"533DiaryGrades_5-1-2022_summary.csv";
+			"f22_12-3-2022_summary.csv";
+//			"533DiaryGrades_5-1-2022_summary.csv";
 //	static final String DIARY_FILE_NAME = 
 //			"524diaries_11-18-2020_detailed.csv";
 //	static String[] dates = {"", "9/21", "10/5", "10/26", "11/9", "11/23", "12/6"};
@@ -33,7 +36,9 @@ public class Comp524DiarySummaryToGradeBookFileGenerator {
 	static Boolean[] isDiary = {true, false};
 	static Integer[] limits = {-1, -1};
 //	static final String GRADES_DIR = "G:\\My Drive\\524\\f21\\grades\\";
-	static final String GRADES_DIR = "G:\\My Drive\\533\\s22\\grades\\";
+//	static final String GRADES_DIR = "G:\\My Drive\\533\\s22\\grades\\";
+	static final String GRADES_DIR = "G:\\My Drive\\524\\f22\\grades\\";
+
 
 	static final String GRADEBOOK_TEMPLATE_FILE_NAME = GRADES_DIR
 			+ "gradebook_export_template.csv";
