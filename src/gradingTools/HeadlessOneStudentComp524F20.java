@@ -6,7 +6,9 @@ public class HeadlessOneStudentComp524F20 {
 
 //	static final String STUDENT = "sdgeorge";
 	static final String STUDENT = "kakiryan";
-	static final String COURSE = "Comp524F20";
+//	static final String COURSE = "Comp524F20";
+	static final String COURSE = "Comp524F23";
+
 	
 	public static void main(String[] args) {
 		String[] myArgs = {

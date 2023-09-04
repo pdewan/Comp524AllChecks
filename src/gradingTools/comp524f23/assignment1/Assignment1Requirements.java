@@ -10,10 +10,10 @@ public class Assignment1Requirements extends AJUnitProjectRequirements {
 //		Comp533TraceUtility.setTracing();
 //		GraderTraceUtility.setTurnOn(true);
 //		GraderTraceUtility.setTracing();
-		addDueDate("09/01/2023 01:00:00", 1.05);
-		addDueDate("09/06/2023 01:00:00", 1.0);
-		addDueDate("09/13/2023 01:00:00", 0.9);
-		addDueDate("09/20/2023 01:00:00", 0.75);
+		addDueDate("09/08/2023 01:00:00", 1.05);
+		addDueDate("09/13/2023 01:00:00", 1.0);
+		addDueDate("09/20/2023 01:00:00", 0.9);
+		addDueDate("09/27/2023 01:00:00", 0.75);
 		BasicProjectIntrospection.setUseMainClass(true);
 		addJUnitTestSuite(F23Assignment1Suite.class);	
         addFeature("Screenshots enclosed", 3, new DocumentEnclosedTestCase());
